@@ -27,11 +27,7 @@ VIGTIGT!
 - Slet data fra første bookning, til det ønskede sted. 
 - SLET ALTSÅ IKKE INFO I STARTEN 
 - Led efter den første "BEGIN:VEVENT" fra toppen, disse linjer kommer før: 
-END:STANDARD			
-END:VTIMEZONE			
-BEGIN:VEVENT			
-DTSTART:20250405T120000Z			
-DTEND:20250405T140000Z
+![alt text](/images/image.png)
 
 - Efter at have slettet de ønskede rækker gemmes filen ctr+s
 
@@ -46,7 +42,7 @@ DTEND:20250405T140000Z
 - Evt. importer re med pip om nødvendigt.
 - Ellers kør med python3 ics_parser.py
 
-**BEMÆRK**
+**BEMÆRK**\
 Tiden
 - Hvis du ikke allerede har bemærket det, er det meget sandsynligt Google har tilrettet tiderne til en anden tidszone. 
 - Dette program er tilrettet således: 

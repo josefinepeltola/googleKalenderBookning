@@ -1,7 +1,7 @@
 # Guide til at se hvornår tider er booket for kapsejlads Google kalender 
 
 
-**1. Find kalender logs**
+### 1. Find kalender logs
 - Logs kan findes på Google Takeout: https://takeout.google.com/
 - For at kunne finde det, kræver det man er administrator (kapansvarlig). Umbi IT kan give adgang. 
 
@@ -17,7 +17,7 @@ På takeout
 ![alt text](/images/image6.png)
 
 
-**2. Sorter data**
+### 2. Sorter data
 - Data kan åbnes i excel, texteditor, vscode eller lignende. Det er klart nemmest i Excel.
 - Alle bookninger står uden luft, men adskilles af "BEGIN:VEVENT" og "END:VEVENT". 
 ![alt text](/images/image2.png)
@@ -36,20 +36,22 @@ VIGTIGT!
 - Efter at have slettet de ønskede rækker gemmes filen ctr+s
 
 
-**3. Tilføj datafil til mappen**
+### 3. Tilføj datafil til mappen
 - Flyt filen til denne mappe
 - Sørg for at der ikke er andre .ics filer på samme niveau. Hvis der er, læg dem i en mappe	
 ![alt text](/images/image4.png)
 
 
-**4. Kør programmet**
+### 4. Kør programmet
 - Programmet kan køres både i vscode og i terminalen (husk at navigere over til den rigtige lokation). 
 - Brug terminalen for at kunne gemme en lækker pdf med ctr+p (se vedhæftet)
 - Evt. importer re med pip om nødvendigt.
 - Ellers kør med python3 ics_parser.py
 ![alt text](/images/image7.png)
 
-**BEMÆRK**\
+
+### BEMÆRK
+
 Tiden
 - Hvis du ikke allerede har bemærket det, er det meget sandsynligt Google har tilrettet tiderne til en anden tidszone. 
 - Dette program er tilrettet således: 
